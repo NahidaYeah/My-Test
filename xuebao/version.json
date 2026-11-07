@@ -1,8 +1,8 @@
 {
-  "versionName": "1.5.4",
-  "versionCode": 11,
-  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.5.4.apk",
-  "apkSize": 1069570,
+  "versionName": "1.5.5",
+  "versionCode": 12,
+  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.5.5.apk",
+  "apkSize": 1070190,
   "publishedAt": "2026-11-07",
-  "notes": "在弹窗中输入分组名称、账户名称等内容时，弹窗随输入法一同上移\n输入框始终保持在键盘上方，不再被输入法遮挡"
+  "notes": "首页新增预算卡片，单独显示剩余预算、总预算与剩余日均\n预算额度随时可查，本月还能花多少一眼看清"
 }
