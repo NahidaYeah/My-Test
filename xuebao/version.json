@@ -1,8 +1,8 @@
 {
-  "versionName": "1.4",
-  "versionCode": 5,
-  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.4.apk",
-  "apkSize": 1017610,
+  "versionName": "1.4.1",
+  "versionCode": 6,
+  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.4.1.apk",
+  "apkSize": 1031642,
   "publishedAt": "2026-11-07",
-  "notes": "新增账单编辑，点击账单后可在收支明细中修改\n支持金额、分类、日期、账户、备注、标签、优惠与标记\n收入、支出和转账均可编辑，统计与预算同步更新\n编辑时沿用原记录时间，不会重复记账"
+  "notes": "新增子分类管理，支持添加、编辑、排序和删除子分类\n分类图标支持线性图标、Emoji 与彩色图标，并可自定义分类颜色\n首页账单列表的分类标记改为对应图标，包含子分类图案\n删除分类不会删除已有账单，历史账单显示为未分类图案"
 }
