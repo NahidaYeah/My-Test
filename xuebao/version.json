@@ -1,8 +1,8 @@
 {
-  "versionName": "1.5.0",
-  "versionCode": 7,
-  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.5.0.apk",
-  "apkSize": 1062510,
+  "versionName": "1.5.1",
+  "versionCode": 8,
+  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.5.1.apk",
+  "apkSize": 1064718,
   "publishedAt": "2026-11-07",
-  "notes": "新增多账本：支持创建、切换和重命名账本，账单、分类与预算按账本独立保存\n新增资产账户：可添加资金账户并设置余额、备注，记账和转账支持选择账户\n外观新增主题设置：界面风格、主题色和液态玻璃背景配色，个性化选项全面升级\n支持应用内检查更新与下载安装包，并记住各页面滚动位置"
+  "notes": "首页底部按钮排序的拖拽更跟手：按住图标即可随手指实时移动，其他按钮会平滑让位\n资产页右上角新增更多菜单，可进入资产分组和已归档资产"
 }
