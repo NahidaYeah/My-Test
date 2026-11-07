@@ -1,8 +1,8 @@
 {
-  "versionName": "1.2",
-  "versionCode": 3,
-  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.2.apk",
-  "apkSize": 1143128,
+  "versionName": "1.3",
+  "versionCode": 4,
+  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.3.apk",
+  "apkSize": 1016674,
   "publishedAt": "2026-11-07",
-  "notes": "修复账单导出页界面重叠\n状态栏与底部导航栏沉浸式适配\n记账键盘缩小为原来的 3/4\n设置新增检查更新"
+  "notes": "修复 Android 16 上启动闪退\n修复账单导出页界面重叠\n状态栏与底部导航栏沉浸式适配\n记账键盘缩小为原来的 3/4\n设置新增检查更新"
 }
