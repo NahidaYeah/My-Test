@@ -1,8 +1,8 @@
 {
-  "versionName": "1.5.5",
-  "versionCode": 12,
-  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.5.5.apk",
-  "apkSize": 1070190,
+  "versionName": "1.5.6",
+  "versionCode": 13,
+  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.5.6.apk",
+  "apkSize": 1070378,
   "publishedAt": "2026-11-07",
-  "notes": "首页新增预算卡片，单独显示剩余预算、总预算与剩余日均\n预算额度随时可查，本月还能花多少一眼看清"
+  "notes": "首页汇总卡片支持左右滑动，左滑查看当月预算\n预算并入汇总卡片，显示剩余预算、总预算与剩余日均\n版本更新内容支持多条编号展示"
 }
