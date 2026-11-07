@@ -1,8 +1,8 @@
 {
-  "versionName": "1.3",
-  "versionCode": 4,
-  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.3.apk",
-  "apkSize": 1016674,
+  "versionName": "1.4",
+  "versionCode": 5,
+  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.4.apk",
+  "apkSize": 1017610,
   "publishedAt": "2026-11-07",
-  "notes": "修复 Android 16 上启动闪退\n修复账单导出页界面重叠\n状态栏与底部导航栏沉浸式适配\n记账键盘缩小为原来的 3/4\n设置新增检查更新"
+  "notes": "新增账单编辑，点击账单后可在收支明细中修改\n支持金额、分类、日期、账户、备注、标签、优惠与标记\n收入、支出和转账均可编辑，统计与预算同步更新\n编辑时沿用原记录时间，不会重复记账"
 }
