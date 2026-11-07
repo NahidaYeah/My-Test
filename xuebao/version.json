@@ -1,8 +1,8 @@
 {
-  "versionName": "1.5.7",
-  "versionCode": 14,
-  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.5.7.apk",
-  "apkSize": 1073482,
+  "versionName": "1.5.8",
+  "versionCode": 15,
+  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.5.8.apk",
+  "apkSize": 1075098,
   "publishedAt": "2026-11-07",
-  "notes": "资产页点击账户进入账户详情，支持右上角加号直接记账\n账户详情按月查看流水，支持展开收起与当月流出流入汇总\n首页账单金额下方显示关联账户名称\n账户编辑页输入项统一靠右对齐"
+  "notes": "日期选择改为应用内日历，风格与整体界面一致\n日期选择按钮调整为还原 / 取消 / 确认，还原即回到今天"
 }
