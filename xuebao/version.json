@@ -1,8 +1,8 @@
 {
-  "versionName": "1.5.3",
-  "versionCode": 10,
-  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.5.3.apk",
-  "apkSize": 1068486,
+  "versionName": "1.5.4",
+  "versionCode": 11,
+  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.5.4.apk",
+  "apkSize": 1069570,
   "publishedAt": "2026-11-07",
-  "notes": "填写备注时不再弹出历史备注遮挡输入区域\n有优惠的账单在首页同时显示原价和实际支出，并标注优惠金额\n没有子分类的分类不再显示三点标记和空白子分类栏"
+  "notes": "在弹窗中输入分组名称、账户名称等内容时，弹窗随输入法一同上移\n输入框始终保持在键盘上方，不再被输入法遮挡"
 }
