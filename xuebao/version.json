@@ -1,0 +1,8 @@
+{
+  "versionName": "1.2",
+  "versionCode": 3,
+  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.2.apk",
+  "apkSize": 1143128,
+  "publishedAt": "2026-11-07",
+  "notes": "修复账单导出页界面重叠\n状态栏与底部导航栏沉浸式适配\n记账键盘缩小为原来的 3/4\n设置新增检查更新"
+}
