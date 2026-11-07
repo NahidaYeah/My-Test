@@ -3,256 +3,231 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#eaf2fb">
+<meta name="theme-color" content="#f8f8f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f0f10" media="(prefers-color-scheme: dark)">
 <title>雪宝记账 · 下载与更新</title>
 <meta name="description" content="雪宝记账安卓版下载与版本更新。">
 <link rel="icon" type="image/png" href="assets/snowman.png">
 <link rel="apple-touch-icon" href="assets/snowman.png">
 <style>
   :root{
-    --site-bg:#eaf2fb;
-    --site-fg:#16202e;
-    --site-accent:#2f7cf6;
-    --site-on-accent:#ffffff;
-    --site-surface:rgba(255,255,255,.66);
-    --site-muted:#5d6d82;
-    --site-border:rgba(20,40,70,.10);
-    --site-font:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
-    --site-radius:26px;
-    --site-space:1;
-    --site-type:1;
-    --site-motion:1;
+    --bg:#f8f8f7;
+    --fg:#17171a;
+    --muted:#73737a;
+    --line:#e6e6e3;
+    --button:#17171a;
+    --button-fg:#ffffff;
+    --focus:#17171a;
+    --font:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#0f0f10;
+      --fg:#f0f0ec;
+      --muted:#96969c;
+      --line:#26262a;
+      --button:#f0f0ec;
+      --button-fg:#0f0f10;
+      --focus:#f0f0ec;
+    }
   }
   *{box-sizing:border-box;}
-  html,body{min-height:100%;}
+  html{color-scheme:light dark;}
   body{
-    margin:0;padding:0;
-    font-family:var(--site-font);
-    color:var(--site-fg);
-    background:var(--site-bg);
+    margin:0;
+    min-height:100vh;
+    font-family:var(--font);
+    color:var(--fg);
+    background:var(--bg);
     -webkit-font-smoothing:antialiased;
-    overflow-x:hidden;
-  }
-  body::before,
-  body::after{
-    content:"";
-    position:fixed;border-radius:50%;pointer-events:none;filter:blur(10px);
-    transition:opacity calc(400ms * var(--site-motion, 1));
-  }
-  body::before{
-    width:min(78vw,520px);height:min(78vw,520px);
-    left:-22vw;top:-18vh;
-    background:radial-gradient(circle at 40% 40%,rgba(255,255,255,.95),rgba(196,222,250,.45) 55%,rgba(196,222,250,0) 72%);
-  }
-  body::after{
-    width:min(70vw,460px);height:min(70vw,460px);
-    right:-24vw;bottom:-16vh;
-    background:radial-gradient(circle at 55% 45%,rgba(255,222,214,.7),rgba(255,222,214,0) 68%);
+    text-rendering:optimizeLegibility;
   }
   .shell{
-    position:relative;z-index:1;
-    width:min(100% - 36px,560px);
+    width:min(100% - 44px,560px);
     margin:0 auto;
-    padding:calc(34px * var(--site-space,1)) 0 calc(34px * var(--site-space,1));
-    display:flex;flex-direction:column;gap:calc(16px * var(--site-space,1));
+    padding:56px 0 32px;
   }
-  .topline{
-    display:flex;align-items:center;justify-content:space-between;gap:12px;
-    padding:0 4px;
+  .app-head{
+    display:flex;
+    align-items:center;
+    gap:16px;
   }
-  .brand{
-    display:flex;align-items:center;gap:10px;
-    font-size:calc(13px * var(--site-type,1));
-    font-weight:650;letter-spacing:.3px;
-    color:var(--site-muted);
+  .app-head > div{min-width:0;}
+  .app-head img{
+    width:64px;height:64px;
+    border-radius:15px;
+    flex:none;
+    display:block;
   }
-  .brand img{
-    width:26px;height:26px;border-radius:8px;
-    box-shadow:0 4px 12px rgba(20,40,70,.14);
+  .app-head h1{
+    margin:0;
+    font-size:24px;
+    line-height:1.25;
+    font-weight:700;
+    letter-spacing:-.3px;
   }
-  .status{
-    display:inline-flex;align-items:center;gap:6px;
-    height:26px;padding:0 11px;border-radius:999px;
-    background:color-mix(in srgb,var(--site-accent) 10%,transparent);
-    color:var(--site-accent);
-    font-size:calc(11.5px * var(--site-type,1));font-weight:650;
-    white-space:nowrap;
+  .app-head .tagline{
+    margin:4px 0 0;
+    font-size:13px;
+    line-height:1.5;
+    color:var(--muted);
   }
-  .status::before{
-    content:"";width:6px;height:6px;border-radius:50%;
-    background:currentColor;
-    box-shadow:0 0 0 4px color-mix(in srgb,var(--site-accent) 14%,transparent);
-  }
-  main{
-    position:relative;overflow:hidden;
-    background:var(--site-surface);
-    border:1px solid var(--site-border);
-    border-radius:var(--site-radius);
-    box-shadow:
-      0 2px 4px rgba(20,40,70,.03),
-      0 24px 60px -24px rgba(30,60,100,.35),
-      inset 0 1px 0 rgba(255,255,255,.9);
-    -webkit-backdrop-filter:blur(24px) saturate(160%);
-    backdrop-filter:blur(24px) saturate(160%);
-  }
-  main::before{
-    content:"";position:absolute;inset:0 0 auto;height:170px;
-    background:
-      radial-gradient(120% 130% at 15% -20%,rgba(255,255,255,.95),rgba(255,255,255,0) 60%),
-      radial-gradient(90% 110% at 90% 0%,rgba(188,217,252,.7),rgba(188,217,252,0) 65%);
-    pointer-events:none;
-  }
-  .hero{
-    position:relative;
-    display:flex;flex-direction:column;align-items:center;text-align:center;
-    padding:calc(28px * var(--site-space,1)) calc(22px * var(--site-space,1)) 0;
-  }
-  .icon-wrap{
-    position:relative;width:96px;height:96px;
-    display:grid;place-items:center;
-    border-radius:calc(var(--site-radius) * .62);
-    background:linear-gradient(180deg,rgba(255,255,255,.9),rgba(255,255,255,.55));
-    border:1px solid rgba(255,255,255,.95);
-    box-shadow:0 18px 40px -18px rgba(30,70,120,.55),inset 0 1px 0 #fff;
-  }
-  .icon-wrap img{width:84px;height:84px;border-radius:calc(var(--site-radius) * .5);display:block;}
-  .icon-wrap::after{
-    content:"";position:absolute;left:50%;bottom:-13px;transform:translateX(-50%);
-    width:52px;height:10px;border-radius:50%;
-    background:rgba(40,70,110,.18);filter:blur(5px);
-  }
-  h1{
-    margin:calc(20px * var(--site-space,1)) 0 0;
-    font-size:calc(30px * var(--site-type,1));
-    line-height:1.18;letter-spacing:-.5px;
-    font-weight:750;
-  }
-  .tagline{
-    margin:8px 0 0;
-    color:var(--site-muted);
-    font-size:calc(13.5px * var(--site-type,1));
-    line-height:1.7;
-    max-width:30em;
-  }
-  .version-row{
-    display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:7px;
-    margin-top:calc(15px * var(--site-space,1));
-  }
-  .pill{
-    display:inline-flex;align-items:center;height:28px;padding:0 12px;
-    border-radius:999px;border:1px solid var(--site-border);
-    background:rgba(255,255,255,.55);
-    font-size:calc(12px * var(--site-type,1));font-weight:600;
-    color:var(--site-muted);
+  .meta{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    gap:8px;
+    margin:22px 0 0;
+    font-size:12.5px;
+    color:var(--muted);
     font-variant-numeric:tabular-nums;
   }
-  .pill strong{color:var(--site-fg);font-weight:700;margin-left:5px;}
-  .actions{
-    display:flex;flex-direction:column;align-items:center;gap:10px;
-    padding:calc(22px * var(--site-space,1)) calc(22px * var(--site-space,1)) calc(8px * var(--site-space,1));
+  .meta span{display:inline-flex;align-items:center;gap:8px;}
+  .meta span + span::before{
+    content:"";
+    width:1px;height:10px;
+    background:var(--line);
   }
   .download{
-    width:100%;max-width:360px;
-    display:flex;align-items:center;justify-content:center;gap:9px;
-    height:54px;border-radius:calc(var(--site-radius) * .68);
-    background:linear-gradient(180deg,color-mix(in srgb,var(--site-accent) 82%,#fff),var(--site-accent));
-    color:var(--site-on-accent);
-    font-family:inherit;font-size:calc(16px * var(--site-type,1));font-weight:700;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:9px;
+    width:100%;
+    height:50px;
+    margin-top:16px;
+    border-radius:10px;
+    background:var(--button);
+    color:var(--button-fg);
+    font-family:inherit;
+    font-size:15px;
+    font-weight:600;
+    letter-spacing:.2px;
     text-decoration:none;
-    box-shadow:0 16px 30px -16px color-mix(in srgb,var(--site-accent) 72%,transparent),inset 0 1px 0 rgba(255,255,255,.35);
-    transition:transform calc(160ms * var(--site-motion,1)) ease,box-shadow calc(160ms * var(--site-motion,1)) ease;
+    transition:opacity 150ms ease;
+    -webkit-tap-highlight-color:transparent;
   }
-  .download:active{transform:scale(.985);box-shadow:0 8px 18px -12px color-mix(in srgb,var(--site-accent) 70%,transparent);}
-  .download svg{width:18px;height:18px;flex:none;}
+  .download:hover{opacity:.88;}
+  .download:active{opacity:.76;}
+  .download:focus-visible{
+    outline:2px solid var(--focus);
+    outline-offset:3px;
+  }
+  .download svg{
+    width:17px;height:17px;
+    flex:none;
+  }
   .hint{
-    margin:0;color:var(--site-muted);
-    font-size:calc(11.5px * var(--site-type,1));line-height:1.6;text-align:center;
-  }
-  .divider{
-    height:1px;margin:calc(18px * var(--site-space,1)) calc(22px * var(--site-space,1)) 0;
-    background:linear-gradient(90deg,transparent,var(--site-border),transparent);
+    margin:10px 0 0;
+    font-size:12px;
+    line-height:1.6;
+    color:var(--muted);
+    text-align:center;
   }
   .notes{
-    padding:calc(18px * var(--site-space,1)) calc(22px * var(--site-space,1)) calc(24px * var(--site-space,1));
+    margin-top:40px;
+    padding-top:26px;
+    border-top:1px solid var(--line);
   }
   .notes h2{
-    margin:0 0 12px;font-size:calc(13px * var(--site-type,1));
-    font-weight:700;letter-spacing:.2px;color:var(--site-muted);
+    margin:0 0 14px;
+    font-size:12px;
+    font-weight:600;
+    letter-spacing:.6px;
+    color:var(--muted);
   }
   .notes ul{
-    list-style:none;margin:0;padding:0;
-    display:flex;flex-direction:column;gap:10px;
+    list-style:none;
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-direction:column;
+    gap:9px;
   }
   .notes li{
-    position:relative;padding-left:20px;
-    font-size:calc(13.5px * var(--site-type,1));line-height:1.65;
+    position:relative;
+    padding-left:16px;
+    font-size:13.5px;
+    line-height:1.7;
   }
   .notes li::before{
-    content:"";position:absolute;left:2px;top:.62em;
-    width:7px;height:7px;border-radius:2px;
-    background:color-mix(in srgb,var(--site-accent) 70%,#fff);
-    transform:rotate(45deg);
+    content:"";
+    position:absolute;
+    left:0;top:.72em;
+    width:4px;height:4px;
+    border-radius:50%;
+    background:var(--muted);
   }
   footer{
-    padding:2px 4px 0;
-    display:flex;align-items:center;justify-content:space-between;gap:12px;
-    color:var(--site-muted);
-    font-size:calc(11px * var(--site-type,1));
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:12px;
+    margin-top:48px;
+    padding-top:18px;
+    border-top:1px solid var(--line);
+    font-size:11.5px;
+    color:var(--muted);
   }
-  footer a{color:inherit;text-decoration:none;}
-  @media (max-width:420px){
-    .shell{width:calc(100% - 28px);padding-top:22px;}
-    .icon-wrap{width:84px;height:84px;}
-    .icon-wrap img{width:74px;height:74px;}
-    h1{font-size:calc(27px * var(--site-type,1));}
+  footer a{
+    color:inherit;
+    text-decoration:none;
+    border-bottom:1px solid transparent;
+  }
+  footer a:hover{border-bottom-color:var(--line);}
+  @media (max-width:440px){
+    .shell{
+      width:calc(100% - 36px);
+      padding-top:36px;
+    }
+    .app-head{gap:14px;}
+    .app-head img{width:56px;height:56px;border-radius:13px;}
+    .app-head h1{font-size:21px;}
+    .app-head .tagline{font-size:12.5px;}
+    .meta{margin-top:18px;}
+    .notes{margin-top:32px;padding-top:22px;}
+    footer{margin-top:36px;}
   }
   @media (prefers-reduced-motion:reduce){
-    *{transition-duration:.001ms !important;animation-duration:.001ms !important;}
+    *{transition-duration:.001ms !important;}
   }
 </style>
 </head>
 <body>
   <div class="shell">
-    <div class="topline">
-      <div class="brand"><img src="assets/snowman.png" alt="">雪宝记账</div>
-      <span class="status">官方安装包</span>
-    </div>
-
-    <main>
-      <section class="hero">
-        <div class="icon-wrap"><img src="assets/snowman.png" alt="雪宝记账图标"></div>
+    <header class="app-head">
+      <img src="assets/snowman.png" alt="雪宝记账图标">
+      <div>
         <h1>雪宝记账</h1>
-        <p class="tagline">轻巧的本地记账应用。账本只保存在你的手机里，不上传云端。</p>
-        <div class="version-row">
-          <span class="pill">版本<strong id="verName">1.3</strong></span>
-          <span class="pill">大小<strong id="verSize">1.0 MB</strong></span>
-          <span class="pill">更新<strong id="verDate">2026-11-07</strong></span>
-        </div>
-      </section>
-
-      <div class="actions">
-        <a class="download" href="xuebao-v1.3.apk" download="雪宝记账-v1.3.apk">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/>
-          </svg>
-          下载安卓安装包
-        </a>
-        <p class="hint">下载后打开安装；覆盖安装会保留原有账本数据。</p>
+        <p class="tagline">轻巧的本地记账应用，账本只保存在你的手机里。</p>
       </div>
+    </header>
 
-      <div class="divider"></div>
+    <p class="meta">
+      <span>v1.3</span>
+      <span>1.0 MB</span>
+      <span>2026-11-07</span>
+      <span>Android</span>
+    </p>
 
-      <section class="notes">
-        <h2>本次更新</h2>
-        <ul>
-          <li>修复 Android 16 上启动即闪退的问题。</li>
-          <li>修复账单导出页界面重叠，卡片间距恢复正常。</li>
-          <li>状态栏与底部导航栏改为沉浸式，背景跟随应用主题。</li>
-          <li>记账键盘缩小为原来的 3/4，给分类区域留出更多空间。</li>
-          <li>设置新增“检查更新”，可直接获取新版本安装包。</li>
-        </ul>
-      </section>
-    </main>
+    <a class="download" href="xuebao-v1.3.apk" download="雪宝记账-v1.3.apk">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/>
+      </svg>
+      下载安卓安装包
+    </a>
+    <p class="hint">下载后打开安装；覆盖安装会保留原有账本数据。</p>
+
+    <section class="notes">
+      <h2>更新内容</h2>
+      <ul>
+        <li>修复 Android 16 上启动即闪退的问题。</li>
+        <li>修复账单导出页界面重叠，卡片间距恢复正常。</li>
+        <li>状态栏与底部导航栏改为沉浸式，背景跟随应用主题。</li>
+        <li>记账键盘缩小为原来的 3/4，给分类区域留出更多空间。</li>
+        <li>设置新增“检查更新”，可直接获取新版本安装包。</li>
+      </ul>
+    </section>
 
     <footer>
       <span>雪宝记账 · 本地记账</span>
