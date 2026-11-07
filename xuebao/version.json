@@ -1,8 +1,8 @@
 {
-  "versionName": "1.5.1",
-  "versionCode": 8,
-  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.5.1.apk",
-  "apkSize": 1064718,
+  "versionName": "1.5.2",
+  "versionCode": 9,
+  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.5.2.apk",
+  "apkSize": 1068278,
   "publishedAt": "2026-11-07",
-  "notes": "首页底部按钮排序的拖拽更跟手：按住图标即可随手指实时移动，其他按钮会平滑让位\n资产页右上角新增更多菜单，可进入资产分组和已归档资产"
+  "notes": "新增资产分组：从资产页右上角进入，可创建、重命名和删除分组\n账户编辑新增分组选项，新增账户时可直接归入对应分组，分组内也能快速添加账户\n之前版本的账本、账户和设置会自动保留"
 }
