@@ -1,8 +1,8 @@
 {
-  "versionName": "1.5.10",
-  "versionCode": 18,
-  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.5.10.apk",
-  "apkSize": 1076046,
-  "publishedAt": "2026-11-09",
-  "notes": "首页汇总卡新增切换按钮，可在总收入、月结余和总支出之间切换\n去掉预算卡上的切换按钮，点击预算卡直接进入预算设置"
+  "versionName": "1.6.0",
+  "versionCode": 20,
+  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.6.0.apk",
+  "apkSize": 1088582,
+  "publishedAt": "2026-11-10",
+  "notes": "新增自动记账：读取支付通知，自动生成账单（本机解析，不会上传）\n支持入账前确认、默认分类与最近自动记账撤销"
 }
