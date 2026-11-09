@@ -1,8 +1,8 @@
 {
-  "versionName": "1.5.8",
-  "versionCode": 15,
-  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.5.8.apk",
-  "apkSize": 1075098,
-  "publishedAt": "2026-11-07",
-  "notes": "日期选择改为应用内日历，风格与整体界面一致\n日期选择按钮调整为还原 / 取消 / 确认，还原即回到今天"
+  "versionName": "1.5.9",
+  "versionCode": 17,
+  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.5.9.apk",
+  "apkSize": 1075690,
+  "publishedAt": "2026-11-09",
+  "notes": "优化统计页切换性能，减少进入统计时的轻微卡顿\n统计图表在数据未变化时不再重复绘制"
 }
