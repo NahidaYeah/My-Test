@@ -1,8 +1,8 @@
 {
-  "versionName": "1.6.2",
-  "versionCode": 22,
-  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.6.2.apk",
-  "apkSize": 1102699,
+  "versionName": "1.6.3",
+  "versionCode": 23,
+  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.6.3.apk",
+  "apkSize": 1103991,
   "publishedAt": "2026-11-10",
-  "notes": "自动记账支持后台守护，关闭应用或清理后台后仍能读取支付通知\n新增最近通知诊断，显示未识别原因和常见设置提示\n优化微信支付通知识别，补充读取展开通知与多行内容"
+  "notes": "修复升级后通知监听未自动连接，导致支付后没有反应\n自动记账页显示监听连接状态，未连接时可一键重连\n后台守护会定时检查，发现监听断开时自动恢复"
 }

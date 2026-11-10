@@ -205,13 +205,13 @@
     </header>
 
     <p class="meta">
-      <span>v1.6.2</span>
+      <span>v1.6.3</span>
       <span>1.1 MB</span>
       <span>2026-11-10</span>
       <span>Android</span>
     </p>
 
-    <a class="download" href="xuebao-v1.6.2.apk" download="雪宝记账-v1.6.2.apk">
+    <a class="download" href="xuebao-v1.6.3.apk" download="雪宝记账-v1.6.3.apk">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
         <path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/>
       </svg>
@@ -222,9 +222,9 @@
     <section class="notes">
       <h2>更新内容</h2>
       <ol>
-        <li>自动记账支持后台守护，关闭应用或清理后台后仍能读取支付通知。</li>
-        <li>新增最近通知诊断，显示未识别原因和常见设置提示。</li>
-        <li>优化微信支付通知识别，补充读取展开通知与多行内容。</li>
+        <li>修复升级后通知监听未自动连接，导致支付后没有反应。</li>
+        <li>自动记账页显示监听连接状态，未连接时可一键重连。</li>
+        <li>后台守护会定时检查，发现监听断开时自动恢复。</li>
       </ol>
     </section>
 
