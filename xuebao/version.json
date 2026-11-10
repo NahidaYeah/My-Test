@@ -1,8 +1,8 @@
 {
-  "versionName": "1.6.9",
-  "versionCode": 29,
-  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.6.9.apk",
-  "apkSize": 1126991,
+  "versionName": "1.6.10",
+  "versionCode": 30,
+  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.6.10.apk",
+  "apkSize": 1127611,
   "publishedAt": "2026-11-10",
-  "notes": "底栏液态镜片升级为 WebGPU 渲染，镜面流动更通透（不支持时自动沿用玻璃镜片）\n左右滑动首页与拖动底栏镜片实时联动，页面跟手连续切换\n拖动时标签随镜片放大，松手按速度弹性吸附并轻震\n弹层打开动画保持逐帧磨砂，不再透出页面"
+  "notes": "总支出与剩余月预算卡片支持左右滑动，跟手拖动并平滑吸附切换\n卡片去掉随指标变化的彩色底色，玻璃质感更干净统一"
 }
