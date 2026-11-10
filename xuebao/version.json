@@ -1,8 +1,8 @@
 {
-  "versionName": "1.6.3",
-  "versionCode": 23,
-  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.6.3.apk",
-  "apkSize": 1103991,
+  "versionName": "1.6.4",
+  "versionCode": 24,
+  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.6.4.apk",
+  "apkSize": 1109299,
   "publishedAt": "2026-11-10",
-  "notes": "修复升级后通知监听未自动连接，导致支付后没有反应\n自动记账页显示监听连接状态，未连接时可一键重连\n后台守护会定时检查，发现监听断开时自动恢复"
+  "notes": "提升液态玻璃通透度，卡片与面板边缘新增折射与高光\n新增液态折射效果，可在 外观 → 主题 中开关\n折射贴图按尺寸缓存，仅用于主要面板，滚动更流畅"
 }
