@@ -1,8 +1,8 @@
 {
-  "versionName": "1.6.11",
-  "versionCode": 31,
-  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.6.11.apk",
-  "apkSize": 1131811,
+  "versionName": "1.6.12",
+  "versionCode": 32,
+  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.6.12.apk",
+  "apkSize": 1131967,
   "publishedAt": "2026-11-10",
-  "notes": "账单卡片、设置分组、资产账户与各页面卡片加入液态玻璃折射、立体高光描边和柔和投影\n汇总卡与底栏新增跟手流动高光，松手平滑回位，并加入低亮度流光动画"
+  "notes": "底栏玻璃内的图标与文字按空间着色：落在镜片内的都变色，玻璃外始终保持中性灰，切换页面不再给整条底栏染色"
 }
