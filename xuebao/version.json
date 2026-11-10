@@ -1,8 +1,8 @@
 {
-  "versionName": "1.6.12",
-  "versionCode": 32,
-  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.6.12.apk",
-  "apkSize": 1131967,
+  "versionName": "1.6.13",
+  "versionCode": 33,
+  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.6.13.apk",
+  "apkSize": 1135059,
   "publishedAt": "2026-11-10",
-  "notes": "底栏玻璃内的图标与文字按空间着色：落在镜片内的都变色，玻璃外始终保持中性灰，切换页面不再给整条底栏染色"
+  "notes": "全应用加入流体按压反馈：可点区域朝触点轻微压入，松手弹性回位，滚动时自动取消\n底栏镜片玻璃新增按压挤压、拖动体积拉伸与触点涟漪，松手带弹簧回位和落地果冻感\n汇总卡左右拖动时加入轻微液态倾斜，松手平滑回正"
 }
