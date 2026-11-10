@@ -1,8 +1,8 @@
 {
-  "versionName": "1.6.4",
-  "versionCode": 24,
-  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.6.4.apk",
-  "apkSize": 1109299,
+  "versionName": "1.6.5",
+  "versionCode": 25,
+  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.6.5.apk",
+  "apkSize": 1113863,
   "publishedAt": "2026-11-10",
-  "notes": "提升液态玻璃通透度，卡片与面板边缘新增折射与高光\n新增液态折射效果，可在 外观 → 主题 中开关\n折射贴图按尺寸缓存，仅用于主要面板，滚动更流畅"
+  "notes": "汇总卡和弹层边缘加入彩色色散，玻璃折射更真实\n描边升级为渐变高光，汇总卡与悬浮按钮按下会回弹\n外观 → 主题 新增折射强度滑杆，可实时调节力度"
 }
