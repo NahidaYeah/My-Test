@@ -1,8 +1,8 @@
 {
-  "versionName": "1.6.8",
-  "versionCode": 28,
-  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.6.8.apk",
-  "apkSize": 1119451,
+  "versionName": "1.6.9",
+  "versionCode": 29,
+  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.6.9.apk",
+  "apkSize": 1126991,
   "publishedAt": "2026-11-10",
-  "notes": "添加账单、账单详情等弹层打开时不再先透出页面内容\n玻璃材质从第一帧就完整呈现，滑入时光泽和模糊稳定不跳变\n弹层背后的遮罩随滑动柔和加深，关闭动画同样顺滑\n确认类小弹窗补上淡入，打开过程更自然"
+  "notes": "底栏液态镜片升级为 WebGPU 渲染，镜面流动更通透（不支持时自动沿用玻璃镜片）\n左右滑动首页与拖动底栏镜片实时联动，页面跟手连续切换\n拖动时标签随镜片放大，松手按速度弹性吸附并轻震\n弹层打开动画保持逐帧磨砂，不再透出页面"
 }
