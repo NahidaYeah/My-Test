@@ -1,8 +1,8 @@
 {
-  "versionName": "1.6.10",
-  "versionCode": 30,
-  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.6.10.apk",
-  "apkSize": 1127611,
+  "versionName": "1.6.11",
+  "versionCode": 31,
+  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.6.11.apk",
+  "apkSize": 1131811,
   "publishedAt": "2026-11-10",
-  "notes": "总支出与剩余月预算卡片支持左右滑动，跟手拖动并平滑吸附切换\n卡片去掉随指标变化的彩色底色，玻璃质感更干净统一"
+  "notes": "账单卡片、设置分组、资产账户与各页面卡片加入液态玻璃折射、立体高光描边和柔和投影\n汇总卡与底栏新增跟手流动高光，松手平滑回位，并加入低亮度流光动画"
 }
