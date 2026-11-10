@@ -1,8 +1,8 @@
 {
-  "versionName": "1.6.7",
-  "versionCode": 27,
-  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.6.7.apk",
-  "apkSize": 1119103,
+  "versionName": "1.6.8",
+  "versionCode": 28,
+  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.6.8.apk",
+  "apkSize": 1119451,
   "publishedAt": "2026-11-10",
-  "notes": "底栏滑块升级为液态镜片，经过的标签会被放大显示\n镜片带镜面弧光、彩色边缘和跟手流光，拖起来更通透\n拖动时内容轻微流体延迟，松手弹性吸附并轻震"
+  "notes": "添加账单、账单详情等弹层打开时不再先透出页面内容\n玻璃材质从第一帧就完整呈现，滑入时光泽和模糊稳定不跳变\n弹层背后的遮罩随滑动柔和加深，关闭动画同样顺滑\n确认类小弹窗补上淡入，打开过程更自然"
 }
