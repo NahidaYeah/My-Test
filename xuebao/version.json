@@ -1,8 +1,8 @@
 {
-  "versionName": "1.6.6",
-  "versionCode": 26,
-  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.6.6.apk",
-  "apkSize": 1116339,
+  "versionName": "1.6.7",
+  "versionCode": 27,
+  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.6.7.apk",
+  "apkSize": 1119103,
   "publishedAt": "2026-11-10",
-  "notes": "底栏新增玻璃滑块，按住左右拖动即可跟手切换页面\n划过每一页轻震反馈，松手自动吸附到最近的标签\n滑块带速度拉伸与弹性回位，触屏与鼠标都能拖"
+  "notes": "底栏滑块升级为液态镜片，经过的标签会被放大显示\n镜片带镜面弧光、彩色边缘和跟手流光，拖起来更通透\n拖动时内容轻微流体延迟，松手弹性吸附并轻震"
 }
