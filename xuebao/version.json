@@ -1,8 +1,8 @@
 {
-  "versionName": "1.6.1",
-  "versionCode": 21,
-  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.6.1.apk",
-  "apkSize": 1091466,
+  "versionName": "1.6.2",
+  "versionCode": 22,
+  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.6.2.apk",
+  "apkSize": 1102699,
   "publishedAt": "2026-11-10",
-  "notes": "确认后入账模式：检测到账单自动弹出确认窗口\n弹窗内可直接修改金额、商家备注、分类和收支类型"
+  "notes": "自动记账支持后台守护，关闭应用或清理后台后仍能读取支付通知\n新增最近通知诊断，显示未识别原因和常见设置提示\n优化微信支付通知识别，补充读取展开通知与多行内容"
 }
