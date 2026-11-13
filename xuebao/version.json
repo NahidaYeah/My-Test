@@ -1,8 +1,8 @@
 {
-  "versionName": "1.6.13",
-  "versionCode": 33,
-  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.6.13.apk",
-  "apkSize": 1135059,
-  "publishedAt": "2026-11-10",
-  "notes": "全应用加入流体按压反馈：可点区域朝触点轻微压入，松手弹性回位，滚动时自动取消\n底栏镜片玻璃新增按压挤压、拖动体积拉伸与触点涟漪，松手带弹簧回位和落地果冻感\n汇总卡左右拖动时加入轻微液态倾斜，松手平滑回正"
+  "versionName": "1.6.14",
+  "versionCode": 34,
+  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.6.14.apk",
+  "apkSize": 1136643,
+  "publishedAt": "2026-11-13",
+  "notes": "通知监听重连或打开应用时自动补扫通知栏，断线期间漏掉的支付通知可补回来\n修复同一商户同一金额短时间内连续支付被误判为重复、导致漏记的问题\n新增 Realme 等手机的应用速冻提示，减少后台通知监听被系统冻结"
 }
