@@ -1,8 +1,8 @@
 {
-  "versionName": "1.6.16",
-  "versionCode": 36,
-  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.6.16.apk",
-  "apkSize": 1474199,
+  "versionName": "1.6.17",
+  "versionCode": 37,
+  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.6.17.apk",
+  "apkSize": 1474959,
   "publishedAt": "2026-11-16",
-  "notes": "新增背景壁纸：胡桃DAY、胡桃NIGHT、阿贝多、达达利亚、可莉、宵宫、纳西妲、大慈树王，可在「外观 → 主题 → 背景壁纸」切换\n切换壁纸时自动匹配对应的主题色，浅色、深色与液态玻璃界面均单独柔化，文字依然清晰\n壁纸只保存在本机，随时可切回「默认」恢复原来的渐变背景"
+  "notes": "壁纸背景整体加深：颜色更浓，粉色、蓝色等色调更明显\n主页液态玻璃更通透：汇总卡、账单、搜索框和底栏让壁纸透出来更多\n浅色、深色与经典界面同步调整，文字保持清晰"
 }
