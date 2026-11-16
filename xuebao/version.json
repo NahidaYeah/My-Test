@@ -1,8 +1,8 @@
 {
-  "versionName": "1.6.20",
-  "versionCode": 40,
-  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.6.20.apk",
-  "apkSize": 1477235,
+  "versionName": "1.6.21",
+  "versionCode": 41,
+  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.6.21.apk",
+  "apkSize": 1477227,
   "publishedAt": "2026-11-16",
-  "notes": "主题模式移入「主题」页，可直接切换跟随系统、浅色与深色模式\n胡桃NIGHT设为深色专属壁纸，浅色模式下隐藏；切回浅色时自动回到胡桃DAY\n检测到新版本时，「检查更新」右侧直接显示「有新版本」与版本号\n原版风格去掉底栏液态玻璃，改为纯色底栏与简洁的选中色块"
+  "notes": "壁纸背景加回旧版滤镜的一半强度，在保留原画色彩的同时多一层柔和通透的质感"
 }
