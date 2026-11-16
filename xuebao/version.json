@@ -1,8 +1,8 @@
 {
-  "versionName": "1.6.14",
-  "versionCode": 34,
-  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.6.14.apk",
-  "apkSize": 1136643,
-  "publishedAt": "2026-11-13",
-  "notes": "通知监听重连或打开应用时自动补扫通知栏，断线期间漏掉的支付通知可补回来\n修复同一商户同一金额短时间内连续支付被误判为重复、导致漏记的问题\n新增 Realme 等手机的应用速冻提示，减少后台通知监听被系统冻结"
+  "versionName": "1.6.15",
+  "versionCode": 35,
+  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.6.15.apk",
+  "apkSize": 1138443,
+  "publishedAt": "2026-11-16",
+  "notes": "自动记账金额识别更准：优先取 ¥/元/金额后的数字，自动排除余额、可用额度、优惠等干扰\n修复收款方、微信支付等字样导致的收支方向误判，带「可用额度」的银行通知不再被漏掉\n新增商户分类记忆：手动改过一次分类后，同一商户之后的自动记账直接套用记忆分类"
 }
