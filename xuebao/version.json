@@ -1,8 +1,8 @@
 {
-  "versionName": "1.6.18",
-  "versionCode": 38,
-  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.6.18.apk",
-  "apkSize": 1475531,
+  "versionName": "1.6.19",
+  "versionCode": 39,
+  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.6.19.apk",
+  "apkSize": 1476319,
   "publishedAt": "2026-11-16",
-  "notes": "液态玻璃改用柔和的液态镜头质感：背景在玻璃边缘轻微弯折，更接近真实玻璃\n新增玻璃边缘的高光描边与柔和投影，卡片、搜索框、底栏和弹层统一质感\n玻璃更清透、雾感更自然，文字与金额在各壁纸下依然清晰"
+  "notes": "壁纸背景改为直接显示原图，不再叠加任何滤镜或压暗层，色彩更贴近原画\n资产与统计页同步主页的液态玻璃质感：卡片、筛选胶囊与按钮拥有一致的折射、描边与投影\n针对原图壁纸重新校准浅色与深色文字、图表标注和收支金额配色，小字在亮色壁纸上依然清晰"
 }
