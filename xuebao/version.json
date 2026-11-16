@@ -1,8 +1,8 @@
 {
-  "versionName": "1.6.21",
-  "versionCode": 41,
-  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.6.21.apk",
-  "apkSize": 1477227,
+  "versionName": "1.6.22",
+  "versionCode": 42,
+  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.6.22.apk",
+  "apkSize": 1478559,
   "publishedAt": "2026-11-16",
-  "notes": "壁纸背景加回旧版滤镜的一半强度，在保留原画色彩的同时多一层柔和通透的质感"
+  "notes": "首页账单的分类图标调低透明度，账单文字更放松、不抢眼\n首页文字会跟着壁纸明暗自动变白或变深，深色壁纸下的卡片加了烟熏玻璃，阅读更清楚"
 }
