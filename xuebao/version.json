@@ -1,8 +1,8 @@
 {
-  "versionName": "1.6.15",
-  "versionCode": 35,
-  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.6.15.apk",
-  "apkSize": 1138443,
+  "versionName": "1.6.16",
+  "versionCode": 36,
+  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.6.16.apk",
+  "apkSize": 1474199,
   "publishedAt": "2026-11-16",
-  "notes": "自动记账金额识别更准：优先取 ¥/元/金额后的数字，自动排除余额、可用额度、优惠等干扰\n修复收款方、微信支付等字样导致的收支方向误判，带「可用额度」的银行通知不再被漏掉\n新增商户分类记忆：手动改过一次分类后，同一商户之后的自动记账直接套用记忆分类"
+  "notes": "新增背景壁纸：胡桃DAY、胡桃NIGHT、阿贝多、达达利亚、可莉、宵宫、纳西妲、大慈树王，可在「外观 → 主题 → 背景壁纸」切换\n切换壁纸时自动匹配对应的主题色，浅色、深色与液态玻璃界面均单独柔化，文字依然清晰\n壁纸只保存在本机，随时可切回「默认」恢复原来的渐变背景"
 }
