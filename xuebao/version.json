@@ -1,8 +1,8 @@
 {
-  "versionName": "1.6.28",
-  "versionCode": 48,
-  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.6.28.apk",
-  "apkSize": 1479243,
+  "versionName": "1.6.29",
+  "versionCode": 49,
+  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.6.29.apk",
+  "apkSize": 1478967,
   "publishedAt": "2026-11-18",
-  "notes": "底栏上滑动的玻璃片也变透明了，后面的壁纸能直接透出来，选中的标签依旧一眼可见。"
+  "notes": "底栏的滑动玻璃片回到上一版的样子，其余透明玻璃效果保持不变。"
 }
