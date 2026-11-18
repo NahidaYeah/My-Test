@@ -1,8 +1,8 @@
 {
-  "versionName": "1.6.24",
-  "versionCode": 44,
-  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.6.24.apk",
-  "apkSize": 1478567,
+  "versionName": "1.6.25",
+  "versionCode": 45,
+  "apkUrl": "https://nahidayeah.github.io/My-Test/xuebao/xuebao-v1.6.25.apk",
+  "apkSize": 1478843,
   "publishedAt": "2026-11-18",
-  "notes": "底栏的背景模糊降低，壁纸和滑过底栏的内容更清楚、没那么糊了"
+  "notes": "底栏变成近乎全透的玻璃：去掉了背景模糊，只留一层很淡的白，滑到后面的文字和图表能直接看清"
 }
